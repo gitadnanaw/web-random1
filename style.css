@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cons {
+    background-color: #222222 ;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+}
+.sub-one {
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    right: 0;
+    margin: auto;
+}
+.sub-one img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 45%;
+}
+
+.sub-one h1 {
+    font-family: 'Patrick Hand';
+    color: white;
+}
+
+.sub-one h3 {
+    margin-bottom: 20px;
+    font-family: 'Patrick Hand';
+    color: white;
+}
+
+.sub-two {
+    background-color: #222222;
+    width: 100%;
+    height: 60vh;
+    margin-top:215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sub-two #table1 {
+    margin-bottom: 40px;
+}
+
+.sub-two #table1 td {
+    padding: 10px;
+}
+
+.sub-two p {
+    font-family: 'Patrick Hand';
+    color: white;
+}
+
+.sub-two img {
+    width: 5%;
+}
+
+.sub-two button {
+    font-family: 'Patrick Hand';
+    color: white;
+}
+
+footer {
+    background-color: white;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+    margin: auto;
+  }
+  
+footer p {
+    margin-bottom: -5px;
+    font-family: 'Patrick Hand';
+    color: black;
+    font-size: 13px;
+  }
+
+
+
